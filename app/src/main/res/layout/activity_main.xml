@@ -87,4 +87,16 @@
         app:layout_constraintStart_toEndOf="@id/img_froyo"
         app:layout_constraintTop_toTopOf="@id/img_froyo" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_shopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_shopping_cart"
+        android:contentDescription="@string/fab_shopping"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/bottom"
+        android:layout_marginEnd="@dimen/end"
+        android:background="@color/white"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

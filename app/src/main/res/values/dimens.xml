@@ -3,4 +3,5 @@
     <dimen name="top">24dp</dimen>
     <dimen name="start">24dp</dimen>
     <dimen name="end">24dp</dimen>
+    <dimen name="bottom">24dp</dimen>
 </resources>
