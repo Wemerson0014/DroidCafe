@@ -43,7 +43,7 @@
 
     <ImageView
         android:id="@+id/img_ice_cream"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:contentDescription="@string/img_ice_cream"
@@ -64,5 +64,15 @@
         app:layout_constraintStart_toEndOf="@+id/img_ice_cream"
         app:layout_constraintTop_toTopOf="@+id/img_ice_cream" />
 
+    <ImageView
+        android:id="@+id/img_froyo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/img_froyo"
+        android:src="@drawable/froyo_circle"
+        app:layout_constraintEnd_toEndOf="@id/img_ice_cream"
+        app:layout_constraintStart_toStartOf="@id/img_ice_cream"
+        app:layout_constraintTop_toBottomOf="@id/img_ice_cream" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

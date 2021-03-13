@@ -8,4 +8,6 @@
     <string name="donut_description">Donuts are glazed and sprinkled with candy.</string>
     <string name="img_ice_cream">Ice Cream</string>
     <string name="ice_cream_description">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="img_froyo">Froyo</string>
+    <string name="froyo_description">FroYo is premium self-serve frozen yogurt.</string>
 </resources>
