@@ -3,4 +3,7 @@
 
     <!-- activity_main -->
     <string name="droid_desserts">Droid Desserts</string>
+
+    <string name="img_donut">Donut</string>
+    <string name="donut_description">Donuts are glazed and sprinkled with candy.</string>
 </resources>
