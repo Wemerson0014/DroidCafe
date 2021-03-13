@@ -3,6 +3,9 @@ package com.estudo.droidcafe;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,5 +13,38 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        imageClicked();
+    }
+
+    private void imageClicked() {
+        ImageView donut = findViewById(R.id.img_donut);
+        ImageView ice_cream = findViewById(R.id.img_ice_cream);
+        ImageView froyo = findViewById(R.id.img_froyo);
+
+        donut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                messageForEachImage(getString(R.string.donut_order_message));
+            }
+        });
+
+        ice_cream.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                messageForEachImage(getString(R.string.ice_cream_order_message));
+            }
+        });
+
+        froyo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                messageForEachImage(getString(R.string.froyo_order_message));
+            }
+        });
+    }
+
+    private void messageForEachImage(String message) {
+        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
     }
 }
