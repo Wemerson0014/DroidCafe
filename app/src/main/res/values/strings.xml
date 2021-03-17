@@ -18,4 +18,8 @@
     <string name="donut_order_message">You ordered a donut.</string>
     <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
     <string name="froyo_order_message">You ordered a FroYo.</string>
+
+    <!-- activity_order -->
+    <string name="text_name_label">Name: </string>
+    <string name="edit_name_hint">Your name here</string>
 </resources>

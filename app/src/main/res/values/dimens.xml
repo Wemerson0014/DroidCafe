@@ -9,4 +9,6 @@
     <dimen name="order_top">32dp</dimen>
     <dimen name="order_start">32dp</dimen>
     <dimen name="order_end">32dp</dimen>
+    <dimen name="edit_order_start">8dp</dimen>
+    <dimen name="edit_order_end">8dp</dimen>
 </resources>
