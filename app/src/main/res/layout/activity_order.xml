@@ -45,4 +45,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/text_name_label" />
 
+    <TextView
+        android:id="@+id/text_address_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_name_label"
+        app:layout_constraintStart_toStartOf="@id/text_name_label"
+        android:text="@string/text_address_label"
+        android:layout_marginTop="@dimen/order_top" />
+
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="null"
+        android:ems="10"
+        android:hint="@string/edit_address_hint"
+        android:inputType="textMultiLine"
+        app:layout_constraintBaseline_toBaselineOf="@id/text_address_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/text_address_label"
+        android:layout_marginTop="@dimen/edit_order_top"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
