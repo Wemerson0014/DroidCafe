@@ -91,4 +91,13 @@
         app:layout_constraintEnd_toEndOf="@id/edit_address"
         app:layout_constraintTop_toBottomOf="@id/edit_address"/>
 
+    <TextView
+        android:id="@+id/text_note_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/text_phone_label"
+        app:layout_constraintTop_toBottomOf="@id/text_phone_label"
+        android:layout_marginTop="@dimen/order_top"
+        android:text="@string/text_note_label" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,9 +20,10 @@
     <string name="froyo_order_message">You ordered a FroYo.</string>
 
     <!-- activity_order -->
-    <string name="text_name_label">Name: </string>
-    <string name="text_address_label">Address</string>
-    <string name="text_phone_label">Phone</string>
+    <string name="text_name_label">Name:</string>
+    <string name="text_address_label">Address:</string>
+    <string name="text_phone_label">Phone:</string>
+    <string name="text_note_label">Note:</string>
     <string name="edit_name_hint">Your name here</string>
     <string name="edit_address_hint">Your address here</string>
     <string name="edit_phone_label">Enter your phone here</string>
