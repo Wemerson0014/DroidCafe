@@ -25,4 +25,5 @@
     <string name="text_phone_label">Phone</string>
     <string name="edit_name_hint">Your name here</string>
     <string name="edit_address_hint">Your address here</string>
+    <string name="edit_phone_label">Enter your phone here</string>
 </resources>
