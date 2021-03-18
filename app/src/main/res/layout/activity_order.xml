@@ -106,11 +106,22 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/edit_note_hint"
-        android:inputType="textCapSentences"
+        android:inputType="textCapSentences|textMultiLine"
         app:layout_constraintBaseline_toBaselineOf="@id/text_note_label"
         app:layout_constraintStart_toStartOf="@id/edit_phone"
         app:layout_constraintEnd_toEndOf="@id/edit_phone"
         app:layout_constraintTop_toBottomOf="@id/edit_phone"
         android:autofillHints="null" />
+
+    <TextView
+        android:id="@+id/text_delivery_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text_delivery_label"
+        app:layout_constraintStart_toStartOf="@id/text_note_label"
+        app:layout_constraintTop_toBottomOf="@id/text_note_label"
+        android:layout_marginTop="@dimen/order_top"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
