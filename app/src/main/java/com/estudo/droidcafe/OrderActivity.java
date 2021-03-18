@@ -19,7 +19,7 @@ public class OrderActivity extends AppCompatActivity {
     private void showDessertOrder() {
         TextView text_order = findViewById(R.id.text_order);
         Intent intent = getIntent();
-        String message = "Order " + intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String message = "Order: " + intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         text_order.setText(message);
     }
 }

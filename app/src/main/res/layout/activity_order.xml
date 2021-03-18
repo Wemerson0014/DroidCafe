@@ -65,6 +65,16 @@
         app:layout_constraintBaseline_toBaselineOf="@id/text_address_label"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/text_address_label"
-        android:layout_marginTop="@dimen/edit_order_top"/>
+        android:layout_marginTop="@dimen/edit_order_top"
+        android:layout_marginStart="@dimen/edit_order_start"/>
+
+    <TextView
+        android:id="@+id/text_phone_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text_phone_label"
+        app:layout_constraintStart_toStartOf="@id/text_address_label"
+        app:layout_constraintTop_toBottomOf="@id/edit_address"
+        android:layout_marginTop="@dimen/order_top"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
