@@ -84,7 +84,7 @@
         android:layout_marginTop="@dimen/edit_order_top"
         android:autofillHints="null"
         android:ems="10"
-        android:hint="@string/edit_phone_label"
+        android:hint="@string/edit_phone_hint"
         android:inputType="phone"
         app:layout_constraintBaseline_toBaselineOf="@id/text_phone_label"
         app:layout_constraintStart_toStartOf="@id/edit_address"
@@ -99,5 +99,18 @@
         app:layout_constraintTop_toBottomOf="@id/text_phone_label"
         android:layout_marginTop="@dimen/order_top"
         android:text="@string/text_note_label" />
+
+    <EditText
+        android:id="@+id/edit_note"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edit_note_hint"
+        android:inputType="textCapSentences"
+        app:layout_constraintBaseline_toBaselineOf="@id/text_note_label"
+        app:layout_constraintStart_toStartOf="@id/edit_phone"
+        app:layout_constraintEnd_toEndOf="@id/edit_phone"
+        app:layout_constraintTop_toBottomOf="@id/edit_phone"
+        android:autofillHints="null" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
