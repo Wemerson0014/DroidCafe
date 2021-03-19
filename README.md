@@ -13,4 +13,4 @@ Esta segunda feature teve como objetivo incrementar a segunda tela(pedido), adic
 
 # Desafio 
 
-Como desafio deste **Code Lab**, foi sugerido definir um elemento do **Radio Button** como previamente selecionado. Para a resolução deste desafio foi incrementado junto ao layout, setando a primeira opção como checada (**android:checked="true"**).
+Como desafio deste **Code Lab**, foi sugerido definir um elemento do **Radio Button** como previamente selecionado. Para a resolução deste desafio foi incrementado junto ao layout(activity_order) dentro dos atributos do primeiro **Radio Button**, setando o atributo como checado (**android:checked="true"**).
