@@ -4,7 +4,7 @@ Code Lab 04.2 - DroidCafe Input Controls
 # Resultado final
 
 
-<img src="https://user-images.githubusercontent.com/39638014/111850333-c3975180-88ee-11eb-832d-f354fbd15f50" width="400">
+<img src="https://user-images.githubusercontent.com/39638014/111850333-c3975180-88ee-11eb-832d-f354fbd15f50.jpg" width="400">
 
 
 Esta segunda feature teve como objetivo incrementar a segunda tela(pedido), adicionar novos elementos como **Edit Texts, Radio Button**, assim como criar uma nova exibição de **Toast** para cada item do **Radio Button** clicado.
