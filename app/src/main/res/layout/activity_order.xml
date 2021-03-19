@@ -124,4 +124,33 @@
         android:textSize="18sp"
         android:textStyle="bold"/>
 
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/order_top"
+        android:layout_marginStart="@dimen/order_start"
+        app:layout_constraintStart_toStartOf="@id/text_delivery_label"
+        app:layout_constraintTop_toBottomOf="@id/text_delivery_label">
+
+        <RadioButton
+            android:id="@+id/radio_same_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_same_day" />
+
+        <RadioButton
+            android:id="@+id/radio_next_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_next_day" />
+
+        <RadioButton
+            android:id="@+id/radio_pick_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_pick_up" />
+    </RadioGroup>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

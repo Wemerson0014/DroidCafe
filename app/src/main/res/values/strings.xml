@@ -29,4 +29,7 @@
     <string name="edit_address_hint">Your address here</string>
     <string name="edit_phone_hint">Enter your phone here</string>
     <string name="edit_note_hint">Enter a note</string>
+    <string name="radio_same_day">Same day messenger service</string>
+    <string name="radio_next_day">Next day ground delivery</string>
+    <string name="radio_pick_up">Pickup</string>
 </resources>
