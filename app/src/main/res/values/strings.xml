@@ -32,4 +32,12 @@
     <string name="radio_same_day">Same day messenger service</string>
     <string name="radio_next_day">Next day ground delivery</string>
     <string name="radio_pick_up">Pickup</string>
+    
+    <!-- Spinner strings -->
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
 </resources>

@@ -87,9 +87,18 @@
         android:hint="@string/edit_phone_hint"
         android:inputType="phone"
         app:layout_constraintBaseline_toBaselineOf="@id/text_phone_label"
-        app:layout_constraintEnd_toEndOf="@id/edit_address"
+        app:layout_constraintEnd_toStartOf="@id/spinner_label"
         app:layout_constraintStart_toStartOf="@id/edit_address"
         app:layout_constraintTop_toBottomOf="@id/edit_address" />
+
+    <Spinner
+        android:id="@+id/spinner_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/edit_phone" />
 
     <TextView
         android:id="@+id/text_note_label"
@@ -108,6 +117,7 @@
         android:ems="10"
         android:hint="@string/edit_note_hint"
         android:inputType="textCapSentences|textMultiLine"
+        android:layout_marginTop="@dimen/edit_order_top"
         app:layout_constraintBaseline_toBaselineOf="@id/text_note_label"
         app:layout_constraintEnd_toEndOf="@id/edit_phone"
         app:layout_constraintStart_toStartOf="@id/edit_phone"
@@ -152,5 +162,6 @@
             android:layout_height="wrap_content"
             android:text="@string/radio_pick_up" />
     </RadioGroup>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
