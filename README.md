@@ -1,28 +1,17 @@
 # DroidCafe
-Code Lab 04.1 - DroidCafe
+Code Lab 04.2 - DroidCafe Input Controls 
 
-# Tela inicial do aplicativo
-
-
-<img src="https://user-images.githubusercontent.com/39638014/111392809-1b874b80-8696-11eb-93a6-52a6c465726b.jpg" width="400">
+# Resultado final
 
 
-# Exibição de Toast
+<img src="https://user-images.githubusercontent.com/39638014/111850333-c3975180-88ee-11eb-832d-f354fbd15f50.jpg" width="400">
 
-Ao clicar em alguma sobremessa, é exibida uma mensagem **Toast** informando o pedido escolhido.
 
-<img src="https://user-images.githubusercontent.com/39638014/111392814-1cb87880-8696-11eb-86d8-6216b64898a9.jpg" width="400">
+Esta segunda feature teve como objetivo incrementar a segunda tela(pedido), adicionar novos elementos como **Edit Texts, Radio Button**, assim como criar uma nova exibição de **Toast** para cada item do **Radio Button** clicado.
 
-# Tela do pedido
+# Desafio 
 
-Depois de selecionar a sobremessa e clicar no carrinho, uma nova tela é exibida contendo informações do seu pedido.
+Como desafio deste **Code Lab**, foi sugerido definir um elemento do **Radio Button** como previamente selecionado. Para a resolução deste desafio foi incrementado junto ao layout(activity_order) dentro dos atributos do primeiro **Radio Button**, setando o atributo como checado (**android:checked="true"**).
 
-<img src="https://user-images.githubusercontent.com/39638014/111392812-1c1fe200-8696-11eb-9b01-c6116113a5d3.jpg" width="400">
 
-# Estudos
-
-Exibição de **Toast** ao clicar em uma imagem, trabalho de alinhamento de *TextViews* com *ImageViews* dentro do layout, criação da ação do clique para o carrinho e exibição de uma nova tela (Intenções (**Intent**)).
-
-# Nível de API
-
-Android 4.4 KitKat - API 19 ou superior.
+<img src="https://user-images.githubusercontent.com/39638014/111851030-9f3c7480-88f0-11eb-8e6f-c457b87cfab6.jpg" width="400">
