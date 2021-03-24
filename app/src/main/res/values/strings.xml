@@ -13,6 +13,7 @@
     <string name="froyo_description">FroYo is premium self-serve frozen yogurt.</string>
 
     <string name="fab_shopping">Cart</string>
+    <string name="error_dial">Can not handle this!</string>
 
     <!-- Main Activity -->
     <string name="donut_order_message">You ordered a donut.</string>

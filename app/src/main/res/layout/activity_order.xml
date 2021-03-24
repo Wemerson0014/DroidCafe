@@ -86,6 +86,7 @@
         android:ems="10"
         android:hint="@string/edit_phone_hint"
         android:inputType="phone"
+        android:imeOptions="actionSend"
         app:layout_constraintBaseline_toBaselineOf="@id/text_phone_label"
         app:layout_constraintEnd_toStartOf="@id/spinner_label"
         app:layout_constraintStart_toStartOf="@id/edit_address"
