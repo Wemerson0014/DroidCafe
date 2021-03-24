@@ -19,6 +19,6 @@ Como desafio deste **Code Lab**, foi sugerido definir um elemento do **Radio But
 
 # Funcionalidade ligação
 
-Através do número informado no campo **Phone** ou simplesmente clicando na *Enviar* no teclado, aplicativo redimensiona para a tela de efetuar chamadas. Caso o número de telefone seja informado, já irá aparecer, caso contrário basta somente digitar para de fato efetuar uma chamada. 
+Através do número informado no campo **Phone** ou simplesmente clicando na setinha *Enviar* no teclado, aplicativo redimensiona para a tela de efetuar chamadas. Caso o número de telefone seja informado, já irá aparecer, caso contrário basta somente digitar para de fato efetuar uma chamada. 
 
 <img src="https://user-images.githubusercontent.com/39638014/112393270-91fcfc80-8cd9-11eb-9ca5-57e5bc5493e1.jpg" width="400">
