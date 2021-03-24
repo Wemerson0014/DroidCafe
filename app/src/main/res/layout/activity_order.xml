@@ -10,14 +10,159 @@
         android:id="@+id/text_order"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/order_start"
+        android:layout_marginTop="@dimen/order_top"
+        android:layout_marginEnd="@dimen/order_end"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="@dimen/order_top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/order_start"
-        android:layout_marginEnd="@dimen/order_end" />
+        android:layout_marginTop="@dimen/order_top"
+        android:text="@string/text_name_label"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_order" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/edit_order_start"
+        android:layout_marginEnd="@dimen/edit_order_end"
+        android:autofillHints="null"
+        android:ems="10"
+        android:hint="@string/edit_name_hint"
+        android:inputType="textCapWords|textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/text_name_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/text_name_label" />
+
+    <TextView
+        android:id="@+id/text_address_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/order_top"
+        android:text="@string/text_address_label"
+        app:layout_constraintStart_toStartOf="@id/text_name_label"
+        app:layout_constraintTop_toBottomOf="@id/text_name_label" />
+
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_order_top"
+        android:autofillHints="null"
+        android:ems="10"
+        android:hint="@string/edit_address_hint"
+        android:inputType="textCapWords|textMultiLine"
+        app:layout_constraintBaseline_toBaselineOf="@id/text_address_label"
+        app:layout_constraintEnd_toEndOf="@id/edit_name"
+        app:layout_constraintStart_toStartOf="@id/edit_name"
+        app:layout_constraintTop_toTopOf="@id/edit_name" />
+
+    <TextView
+        android:id="@+id/text_phone_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/order_top"
+        android:text="@string/text_phone_label"
+        app:layout_constraintStart_toStartOf="@id/text_address_label"
+        app:layout_constraintTop_toBottomOf="@id/edit_address" />
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_order_top"
+        android:autofillHints="null"
+        android:ems="10"
+        android:hint="@string/edit_phone_hint"
+        android:inputType="phone"
+        android:imeOptions="actionSend"
+        app:layout_constraintBaseline_toBaselineOf="@id/text_phone_label"
+        app:layout_constraintEnd_toStartOf="@id/spinner_label"
+        app:layout_constraintStart_toStartOf="@id/edit_address"
+        app:layout_constraintTop_toBottomOf="@id/edit_address" />
+
+    <Spinner
+        android:id="@+id/spinner_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/edit_phone" />
+
+    <TextView
+        android:id="@+id/text_note_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/order_top"
+        android:text="@string/text_note_label"
+        app:layout_constraintStart_toStartOf="@id/text_phone_label"
+        app:layout_constraintTop_toBottomOf="@id/text_phone_label" />
+
+    <EditText
+        android:id="@+id/edit_note"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="null"
+        android:ems="10"
+        android:hint="@string/edit_note_hint"
+        android:inputType="textCapSentences|textMultiLine"
+        android:layout_marginTop="@dimen/edit_order_top"
+        app:layout_constraintBaseline_toBaselineOf="@id/text_note_label"
+        app:layout_constraintEnd_toEndOf="@id/edit_phone"
+        app:layout_constraintStart_toStartOf="@id/edit_phone"
+        app:layout_constraintTop_toBottomOf="@id/edit_phone" />
+
+    <TextView
+        android:id="@+id/text_delivery_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/order_top"
+        android:text="@string/text_delivery_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/text_note_label"
+        app:layout_constraintTop_toBottomOf="@id/text_note_label" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/order_start"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="@id/text_delivery_label"
+        app:layout_constraintTop_toBottomOf="@id/text_delivery_label">
+
+        <RadioButton
+            android:id="@+id/radio_same_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radio_same_day" />
+
+        <RadioButton
+            android:id="@+id/radio_next_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_next_day" />
+
+        <RadioButton
+            android:id="@+id/radio_pick_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_pick_up" />
+    </RadioGroup>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
