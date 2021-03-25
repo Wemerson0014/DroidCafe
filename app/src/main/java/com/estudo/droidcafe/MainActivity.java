@@ -1,6 +1,7 @@
 package com.estudo.droidcafe;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,7 +20,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        setupToolbar();
         imageClicked();
+    }
+
+    private void setupToolbar() {
+        Toolbar toolbar = findViewById(R.id.main_toolbar);
+        setSupportActionBar(toolbar);
     }
 
     private void imageClicked() {
